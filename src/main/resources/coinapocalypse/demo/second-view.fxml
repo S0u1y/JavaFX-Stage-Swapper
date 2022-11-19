@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coinapocalypse.demo.SecondController">
+   <children>
+      <Label alignment="CENTER" layoutX="207.0" layoutY="35.0" prefHeight="43.0" prefWidth="187.0" text="Welcome to the second scene!" textAlignment="CENTER" />
+      <Button fx:id="back" layoutX="258.0" layoutY="200.0" mnemonicParsing="false" onAction="#goBack" text="To first scene" />
+   </children>
+</AnchorPane>
