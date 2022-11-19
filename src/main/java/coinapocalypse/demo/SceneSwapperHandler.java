@@ -22,6 +22,7 @@ public class SceneSwapperHandler {
             stage.show();
         } catch (IOException e) {
             return;
+
         }
 
     }
